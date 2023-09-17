@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input{
+    outline: none;
+}
+select{
+    outline: none;
+}
+.loginContainer{
+    width: 450px;
+}
+.chatBoxContainer{
+  border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px gray;
+}
+.chatContentBox{
+    height: 320px;
+    overflow-y:auto ;
+    overflow-x: hidden;
+    padding-bottom: 15px;
+}
+
+.chatItem{
+    border: 1px solid #d8d8d8;
+    padding: 14px 4px 14px 13px;
+    border-radius: 7px;
+}
+
+.MSG_Item{
+    margin-left: 5px;
+    margin-top: 5px;
+    padding:8px 12px 8px 12px;
+    border-radius: 5px;
+    width: fit-content;
+}
+.MSG_Item.Left{
+    background-color: #2272b0;;
+}
+.MSG_Item.Right{
+    background-color: #e7e7e7;
+    border: 1px solid #cdcdcd;
+}
+
