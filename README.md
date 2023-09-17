@@ -1,8 +1,29 @@
-# React + Vite
+# React Real-time Chat App
+## Project Description
+Mainly focused on react js and Node js for Realtime chat between users.
+### Functionalities
+- Private chat between user to user
+- we can switch between chats
+- Newly connected users Updated in realtime
+- Login and Registration
+- Authentication with crypto-js on both frontend and backend
+- Session Management with Json web tokens
+- Form validations
+## Frontend Installation
+`npm install vite axios crypto-js react-router-dom socket.io-client tailwindcss`
+####
+`npm run dev`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Backend Installation
+`npm install express socket.io body-parser bcrypt cors jsonwebtoken lodash crypto-js`
+####
+`node app.js`
 
-Currently, two official plugins are available:
+### Tech stack
+- React JS (18.2.0)
+- Vite (Build Tool) (4.4.5)
+- Node js
+- Socket IO (4.7.2)
+- json web token(JWT)
+- tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
